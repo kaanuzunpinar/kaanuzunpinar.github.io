@@ -1,0 +1,72 @@
+:root{
+  font-family: 'Montserrat', sans-serif;
+  color: #1a1b1f;
+  letter-spacing: 1px;
+  
+}
+.contacts{
+  margin-left: 10%; vertical-align: middle;
+}
+.contacts-element{
+  margin-left: 10%; vertical-align: middle; font-size: 20px;
+}
+header{
+  font-size: 42px;
+  margin-left: 3%;
+  margin-top: 3%;
+}
+.grid-container {
+  font-size: 32px;
+  margin-top: 5%;
+  margin-left: 12%;
+  margin-right: 30%;
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+.grid-container2 {
+  font-size: 32px;
+  margin-top: 5%;
+  margin-left: 12%;
+  margin-right: 30%;
+  display: grid;
+  grid-template-rows: 25% 75%;
+  margin-bottom: 10%;
+}
+.grid-col-container {
+  font-size: 32px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  
+}
+.grid-row-container {
+  font-size: 32px;
+  display: grid;
+  grid-template-rows: 20% 10% 20% ;
+}
+.comp-name{
+  font-size: 20px;
+}
+.big{
+  font-size:59px;
+  margin-top: 15px;
+  font-weight: lighter;
+}
+.part{
+  font-size: 32px;
+  margin: 8% 12%;
+  
+}
+.small{
+  margin-bottom: 8px;
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: lighter;
+}
+.light{
+  margin-bottom: 0;
+  margin-top: 0;
+  font-size: 14px;
+  font-weight: lighter;
+  color: grey;
+  line-height: 150%;
+}
