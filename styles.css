@@ -23,6 +23,7 @@ header{
   display: grid;
   grid-template-rows: 50% 50%;
 }
+
 .grid-container2 {
   font-size: 32px;
   margin-top: 5%;
@@ -32,17 +33,23 @@ header{
   grid-template-rows: 25% 75%;
   margin-bottom: 10%;
 }
+
 .grid-col-container {
   font-size: 32px;
   display: grid;
   grid-template-columns: 50% 50%;
   
 }
+
 .grid-row-container {
   font-size: 32px;
   display: grid;
   grid-template-rows: 20% 10% 20% ;
 }
+.last{
+  background-color: #e4ecea; ; margin:auto 2%;font-size: 32px; padding-top: 50px ;padding-bottom: 50px; 
+}
+
 .comp-name{
   font-size: 20px;
 }
@@ -69,4 +76,24 @@ header{
   font-weight: lighter;
   color: grey;
   line-height: 150%;
+}
+@media screen and (max-width: 992px) {
+  .grid-container2 {
+    margin-top: 50%;
+  }
+  .grid-col-container{
+    display: inline;
+  }
+  .grid-row-container{
+    display: inline;
+  }
+  .last{
+    margin-top: 100px;
+  }
+  .big{
+    font-size: 40px;
+  }
+  .grid-container,.grid-container2{
+    display: inline;
+  }
 }
